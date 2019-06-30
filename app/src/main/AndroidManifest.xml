@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vimalinc.hieg">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeNoActionBar">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/google_admob_app_id" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppThemeNoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SampleActivity" />
+        <activity
+            android:name=".Aboutme"
+            android:label="@string/about_us"
+            android:parentActivityName=".SampleActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".topic.LearnTranslation"
+            android:label="@string/learn_translation_1"
+            android:parentActivityName=".SampleActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".topic.GrammerRules"
+            android:label="@string/grammer_rules_2"
+            android:parentActivityName=".SampleActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".topic.IndefiniteTensesRules"
+            android:label="@string/indefinite_tenses_rules_3"
+            android:parentActivityName=".SampleActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".topic.ContinuousTensesRules"
+            android:label="@string/Continuous_Tenses_Rules_4"
+            android:parentActivityName=".SampleActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".topic.PerfectTensesRules"
+            android:label="@string/PerfectTensesRules_5"
+            android:parentActivityName=".SampleActivity"
+            android:theme="@style/AppTheme" />
+
+
+        <activity
+            android:name=".topic.PerfectContinuousTensesRules"
+            android:label="@string/Perfect_Continuous_Tenses_Rules_6"
+            android:parentActivityName=".SampleActivity"
+            android:theme="@style/AppTheme" />
+
+
+        <activity
+            android:name=".topic.VerbHelping"
+            android:label="@string/Verb_Helping_verb_7"
+            android:parentActivityName=".SampleActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".topic.TensesSimpleTranslation"
+            android:label="@string/tense_Simple_Translation_8"
+            android:parentActivityName=".SampleActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".topic.ModalsSimpleTranslation"
+            android:parentActivityName=".SampleActivity"
+            android:label="@string/Modals_Simple_Translation_9"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".topic.QuestionsMakingSimpleTranslation"
+            android:parentActivityName=".SampleActivity"
+            android:label="@string/Questions_Making_10"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".topic.DialoguesConversationsSimpleTranslation"
+            android:parentActivityName=".SampleActivity"
+            android:label="@string/Dialogues_Conversations_11"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".topic.ExercisesforPracticeTest"
+            android:parentActivityName=".SampleActivity"
+            android:label="@string/Exercises_for_Practice_12"
+            android:theme="@style/AppTheme" />
+
+
+        <activity android:name=".Notification"
+            android:label="@string/notification"
+            android:parentActivityName=".SampleActivity"
+            android:theme="@style/AppTheme"/>
+
+
+
+        <activity
+            android:name=".webview.Webview1"
+            android:parentActivityName=".topic.LearnTranslation"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".webview.Webview2"
+            android:parentActivityName=".topic.GrammerRules"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".webview.Webview3"
+            android:parentActivityName=".topic.IndefiniteTensesRules"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".webview.Webview4"
+            android:parentActivityName=".topic.ContinuousTensesRules"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".webview.Webview5"
+            android:parentActivityName=".topic.PerfectTensesRules"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".webview.Webview6"
+            android:parentActivityName=".topic.PerfectContinuousTensesRules"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".webview.Webview7"
+            android:parentActivityName=".topic.VerbHelping"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".webview.Webview8"
+            android:parentActivityName=".topic.TensesSimpleTranslation"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".webview.Webview9"
+            android:parentActivityName=".topic.ModalsSimpleTranslation"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".webview.Webview10"
+            android:parentActivityName=".topic.QuestionsMakingSimpleTranslation"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".webview.Webview11"
+            android:parentActivityName=".topic.DialoguesConversationsSimpleTranslation"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".webview.Webview12"
+            android:parentActivityName=".topic.ExercisesforPracticeTest"
+            android:theme="@style/AppTheme" />
+
+    </application>
+</manifest>

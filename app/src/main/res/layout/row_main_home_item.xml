@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linMain"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dim_5"
+    android:elevation="@dimen/dim_2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorHomeTitle1"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dim_20"
+        android:paddingLeft="@dimen/dim_10"
+        android:paddingRight="@dimen/dim_10"
+        android:paddingTop="@dimen/dim_20">
+
+        <ImageView
+            android:id="@+id/imgLeft1"
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_translate"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dim_7"
+            android:orientation="vertical">
+
+            <com.vimalinc.hieg.custom.MyTextViewBold
+                android:id="@+id/txtTitleLeft1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_1"
+                android:maxLines="1"
+                android:text="@string/learn_translation_1"
+                android:textColor="#fff"
+                android:textSize="@dimen/font_size_25"/>
+
+            <com.vimalinc.hieg.custom.MyTextViewRegular
+                android:id="@+id/txtDescriptionLeft1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_3"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="@string/new_icon"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="@dimen/font_size_10"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dim_10"
+        android:src="@color/white"/>
+
+    <LinearLayout
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@color/colorHomeTitle2"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dim_20"
+        android:paddingLeft="@dimen/dim_10"
+        android:paddingRight="@dimen/dim_10"
+        android:paddingTop="@dimen/dim_20"
+        android:visibility="visible">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dim_7"
+            android:layout_marginLeft="@dimen/dim_7"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgRight2"
+                android:layout_width="75dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_grammar"/>
+
+            <com.vimalinc.hieg.custom.MyTextViewBold
+                android:id="@+id/txtTitleRight2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dim_7"
+                android:layout_marginTop="@dimen/dim_1"
+                android:layout_toLeftOf="@+id/imgRight2"
+                android:maxLines="1"
+                android:text="@string/grammer_rules_2"
+                android:textColor="#fff"
+                android:textSize="@dimen/font_size_25"/>
+
+            <com.vimalinc.hieg.custom.MyTextViewRegular
+                android:id="@+id/txtDescriptionRight2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTitleRight2"
+                android:layout_marginRight="@dimen/dim_7"
+                android:layout_marginTop="@dimen/dim_3"
+                android:layout_toLeftOf="@+id/imgRight2"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="@string/new_icon"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="@dimen/font_size_10"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dim_10"
+        android:src="@color/white"/>
+
+
+    <LinearLayout
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorHomeTitle3"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dim_20"
+        android:paddingLeft="@dimen/dim_10"
+        android:paddingRight="@dimen/dim_10"
+
+        android:paddingTop="@dimen/dim_20">
+
+        <ImageView
+            android:id="@+id/imgLeft3"
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_indefinte"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dim_7"
+            android:orientation="vertical">
+
+            <com.vimalinc.hieg.custom.MyTextViewBold
+                android:id="@+id/txtTitleLeft3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_1"
+                android:maxLines="1"
+                android:text="@string/indefinite_tenses_rules_3"
+                android:textColor="#fff"
+                android:textSize="@dimen/font_size_25"/>
+
+            <com.vimalinc.hieg.custom.MyTextViewRegular
+                android:id="@+id/txtDescriptionLeft3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_3"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="@string/new_icon"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="@dimen/font_size_10"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dim_10"
+        android:src="@color/white"/>
+
+
+    <LinearLayout
+        android:id="@+id/line4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@color/colorHomeTitle4"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dim_20"
+        android:paddingLeft="@dimen/dim_10"
+        android:paddingRight="@dimen/dim_10"
+        android:paddingTop="@dimen/dim_20"
+        android:visibility="visible">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dim_7"
+            android:layout_marginLeft="@dimen/dim_7"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgRight4"
+                android:layout_width="75dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_tenses"/>
+
+            <com.vimalinc.hieg.custom.MyTextViewBold
+                android:id="@+id/txtTitleRight4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dim_7"
+                android:layout_marginTop="@dimen/dim_1"
+                android:layout_toLeftOf="@+id/imgRight4"
+                android:maxLines="1"
+                android:text="@string/Continuous_Tenses_Rules_4"
+                android:textColor="#fff"
+                android:textSize="@dimen/font_size_25"/>
+
+            <com.vimalinc.hieg.custom.MyTextViewRegular
+                android:id="@+id/txtDescriptionRight4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTitleRight4"
+                android:layout_marginRight="@dimen/dim_7"
+                android:layout_marginTop="@dimen/dim_3"
+                android:layout_toLeftOf="@+id/imgRight4"
+                android:ellipsize="end"
+                android:maxLines="3"
+                             android:text="@string/new_icon"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="@dimen/font_size_10"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dim_10"
+        android:src="@color/white"/>
+
+    <LinearLayout
+        android:id="@+id/line5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorHomeTitle5"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dim_20"
+        android:paddingLeft="@dimen/dim_10"
+        android:paddingRight="@dimen/dim_10"
+
+        android:paddingTop="@dimen/dim_20">
+
+        <ImageView
+            android:id="@+id/imgLeft5"
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_perfect"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dim_7"
+            android:orientation="vertical">
+
+            <com.vimalinc.hieg.custom.MyTextViewBold
+                android:id="@+id/txtTitleLeft5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_1"
+                android:maxLines="1"
+                android:text="@string/PerfectTensesRules_5"
+                android:textColor="#fff"
+                android:textSize="@dimen/font_size_25"/>
+
+            <com.vimalinc.hieg.custom.MyTextViewRegular
+                android:id="@+id/txtDescriptionLeft5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_3"
+                android:ellipsize="end"
+                android:maxLines="3"
+                             android:text="@string/new_icon"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="@dimen/font_size_10"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dim_10"
+        android:src="@color/white"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/line6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@color/colorHomeTitle6"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dim_20"
+        android:paddingLeft="@dimen/dim_10"
+        android:paddingRight="@dimen/dim_10"
+        android:paddingTop="@dimen/dim_20"
+        android:visibility="visible">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dim_7"
+            android:layout_marginLeft="@dimen/dim_7"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgRight6"
+                android:layout_width="75dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_thumbs"/>
+
+            <com.vimalinc.hieg.custom.MyTextViewBold
+                android:id="@+id/txtTitleRight6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dim_7"
+                android:layout_marginTop="@dimen/dim_1"
+                android:layout_toLeftOf="@+id/imgRight6"
+                android:maxLines="1"
+                android:text="@string/Perfect_Continuous_Tenses_Rules_6"
+                android:textColor="#fff"
+                android:textSize="@dimen/font_size_25"/>
+
+            <com.vimalinc.hieg.custom.MyTextViewRegular
+                android:id="@+id/txtDescriptionRight6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTitleRight6"
+                android:layout_marginRight="@dimen/dim_7"
+                android:layout_marginTop="@dimen/dim_3"
+                android:layout_toLeftOf="@+id/imgRight6"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="@string/new_icon"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/font_size_10"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dim_10"
+        android:src="@color/white"/>
+
+
+    <LinearLayout
+        android:id="@+id/line7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorHomeTitle7"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dim_20"
+        android:paddingLeft="@dimen/dim_10"
+        android:paddingRight="@dimen/dim_10"
+
+        android:paddingTop="@dimen/dim_20">
+
+        <ImageView
+            android:id="@+id/imgLeft7"
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_support"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dim_7"
+            android:orientation="vertical">
+
+            <com.vimalinc.hieg.custom.MyTextViewBold
+                android:id="@+id/txtTitleLeft7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_1"
+                android:maxLines="1"
+                android:text="@string/Verb_Helping_verb_7"
+                android:textColor="#fff"
+                android:textSize="@dimen/font_size_25"/>
+
+            <com.vimalinc.hieg.custom.MyTextViewRegular
+                android:id="@+id/txtDescriptionLeft7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_3"
+                android:ellipsize="end"
+                android:maxLines="3"
+                             android:text="@string/new_icon"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="@dimen/font_size_10"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dim_10"
+        android:src="@color/white"/>
+
+
+    <LinearLayout
+        android:id="@+id/line8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@color/colorHomeTitle8"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dim_20"
+        android:paddingLeft="@dimen/dim_10"
+        android:paddingRight="@dimen/dim_10"
+        android:paddingTop="@dimen/dim_20"
+        android:visibility="visible">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dim_7"
+            android:layout_marginLeft="@dimen/dim_7"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgRight8"
+                android:layout_width="75dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_modal_list"/>
+
+            <com.vimalinc.hieg.custom.MyTextViewBold
+                android:id="@+id/txtTitleRight8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dim_7"
+                android:layout_marginTop="@dimen/dim_1"
+                android:layout_toLeftOf="@+id/imgRight8"
+                android:maxLines="1"
+                android:text="@string/tense_Simple_Translation_8"
+                android:textColor="#fff"
+                android:textSize="@dimen/font_size_25"/>
+
+            <com.vimalinc.hieg.custom.MyTextViewRegular
+                android:id="@+id/txtDescriptionRight8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTitleRight8"
+                android:layout_marginRight="@dimen/dim_7"
+                android:layout_marginTop="@dimen/dim_3"
+                android:layout_toLeftOf="@+id/imgRight8"
+                android:ellipsize="end"
+                android:maxLines="3"
+                             android:text="@string/new_icon"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="@dimen/font_size_10"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dim_10"
+        android:src="@color/white"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/line9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorHomeTitle2"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dim_20"
+        android:paddingLeft="@dimen/dim_10"
+        android:paddingRight="@dimen/dim_10"
+
+        android:paddingTop="@dimen/dim_20">
+
+        <ImageView
+            android:id="@+id/imgLeft9"
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_man_reading"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dim_7"
+            android:orientation="vertical">
+
+            <com.vimalinc.hieg.custom.MyTextViewBold
+                android:id="@+id/txtTitleLeft9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_1"
+                android:maxLines="1"
+                android:text="@string/Modals_Simple_Translation_9"
+                android:textColor="#fff"
+                android:textSize="@dimen/font_size_25"/>
+
+            <com.vimalinc.hieg.custom.MyTextViewRegular
+                android:id="@+id/txtDescriptionLeft9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_3"
+                android:ellipsize="end"
+                android:maxLines="3"
+                             android:text="@string/new_icon"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="@dimen/font_size_10"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dim_10"
+        android:src="@color/white"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/line10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@color/colorHomeTitle10"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dim_20"
+        android:paddingLeft="@dimen/dim_10"
+        android:paddingRight="@dimen/dim_10"
+        android:paddingTop="@dimen/dim_20"
+        android:visibility="visible">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dim_7"
+            android:layout_marginLeft="@dimen/dim_7"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgRight10"
+                android:layout_width="75dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_conversations"/>
+
+            <com.vimalinc.hieg.custom.MyTextViewBold
+                android:id="@+id/txtTitleRight10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dim_7"
+                android:layout_marginTop="@dimen/dim_1"
+                android:layout_toLeftOf="@+id/imgRight10"
+                android:maxLines="1"
+                android:text="@string/Questions_Making_10"
+                android:textColor="#fff"
+                android:textSize="@dimen/font_size_25"/>
+
+            <com.vimalinc.hieg.custom.MyTextViewRegular
+                android:id="@+id/txtDescriptionRight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTitleRight10"
+                android:layout_marginRight="@dimen/dim_7"
+                android:layout_marginTop="@dimen/dim_3"
+                android:layout_toLeftOf="@+id/imgRight10"
+                android:ellipsize="end"
+                android:maxLines="3"
+                             android:text="@string/new_icon"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="@dimen/font_size_10"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dim_10"
+        android:src="@color/white"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/line11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorHomeTitle11"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dim_20"
+        android:paddingLeft="@dimen/dim_10"
+        android:paddingRight="@dimen/dim_10"
+
+        android:paddingTop="@dimen/dim_20">
+
+        <ImageView
+            android:id="@+id/imgLeft11"
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_simple_home"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dim_7"
+            android:orientation="vertical">
+
+            <com.vimalinc.hieg.custom.MyTextViewBold
+                android:id="@+id/txtTitleLeft11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_1"
+                android:maxLines="1"
+                android:text="@string/Dialogues_Conversations_11"
+                android:textColor="#fff"
+                android:textSize="@dimen/font_size_25"/>
+
+            <com.vimalinc.hieg.custom.MyTextViewRegular
+                android:id="@+id/txtDescriptionLeft11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_3"
+                android:ellipsize="end"
+                android:maxLines="3"
+                             android:text="@string/new_icon"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="@dimen/font_size_10"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dim_10"
+        android:src="@color/white"/>
+
+
+    <LinearLayout
+        android:id="@+id/line12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@color/colorHomeTitle12"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dim_20"
+        android:paddingLeft="@dimen/dim_10"
+        android:paddingRight="@dimen/dim_10"
+        android:paddingTop="@dimen/dim_20"
+        android:visibility="visible">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dim_7"
+            android:layout_marginLeft="@dimen/dim_7"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgRight12"
+                android:layout_width="75dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_practice"/>
+
+            <com.vimalinc.hieg.custom.MyTextViewBold
+                android:id="@+id/txtTitleRight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dim_7"
+                android:layout_marginTop="@dimen/dim_1"
+                android:layout_toLeftOf="@+id/imgRight12"
+                android:maxLines="1"
+                android:text="@string/Exercises_for_Practice_12"
+                android:textColor="#fff"
+                android:textSize="@dimen/font_size_25"/>
+
+            <com.vimalinc.hieg.custom.MyTextViewRegular
+                android:id="@+id/txtDescriptionRight12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTitleRight"
+                android:layout_marginRight="@dimen/dim_7"
+                android:layout_marginTop="@dimen/dim_3"
+                android:layout_toLeftOf="@+id/imgRight12"
+                android:ellipsize="end"
+                android:maxLines="3"
+                             android:text="@string/new_icon"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="@dimen/font_size_10"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dim_10"
+        android:src="@color/white"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adUnitId="@string/ad_unit_banner" />
+
+
+</android.support.v7.widget.LinearLayoutCompat>

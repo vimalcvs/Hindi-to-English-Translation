@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="font_h7_size">18.0sp</dimen>
+    <dimen name="font_h1_size">96.0sp</dimen>
+    <dimen name="font_h2_size">60.0sp</dimen>
+    <dimen name="font_h3_size">48.0sp</dimen>
+    <dimen name="font_h4_size">34.0sp</dimen>
+    <dimen name="font_h5_size">24.0sp</dimen>
+    <dimen name="font_h6_size">20.0sp</dimen>
+    <dimen name="font_title_size">16.0sp</dimen>
+    <dimen name="font_body_size">14.0sp</dimen>
+    <dimen name="space_16">16.0dip</dimen>
+    <dimen name="spacing_large">15.0dip</dimen>
+    <dimen name="spacing_middle">10.0dip</dimen>
+    <dimen name="spacing_small">3.0dip</dimen>
+    <dimen name="spacing_xlarge">35.0dip</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="dim_10">10dp</dimen>
+    <dimen name="dim_2">2dp</dimen>
+    <dimen name="dim_7">7dp</dimen>
+    <dimen name="dim_1">1dp</dimen>
+    <dimen name="dim_5">5dp</dimen>
+    <dimen name="dim_20">20dp</dimen>
+    <dimen name="dim_3">2dp</dimen>
+    <dimen name="font_size_13">16sp</dimen>
+    <dimen name="font_size_14">14sp</dimen>
+    <dimen name="font_size_15">14sp</dimen>
+    <dimen name="font_size_16">16sp</dimen>
+    <dimen name="dim_12">12dp</dimen>
+    <dimen name="dim_9">9dp</dimen>
+    <dimen name="dim_15">15dp</dimen>
+    <dimen name="font_size_18">18sp</dimen>
+    <dimen name="dimsp_12">12sp</dimen>
+    <dimen name="font_size_25">25sp</dimen>
+    <dimen name="font_size_5">5sp</dimen>
+    <dimen name="font_size_10">10sp</dimen>
+</resources>

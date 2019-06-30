@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/tools"
+    android:background="@color/md_grey_200"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout41"
+            android:background="@color/md_white_1000"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+
+
+            <com.vimalinc.hieg.custom.MyTextViewBold
+                android:textSize="@dimen/font_h7_size"
+                android:textColor="@color/md_grey_800"
+                android:id="@+id/textView279"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.0dip"
+                android:text="@string/devby"
+                android:layout_marginStart="8.0dip"
+                android:layout_marginEnd="8.0dip"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView131" />
+
+
+
+
+            <com.vimalinc.hieg.custom.MyTextViewBold
+                android:textSize="@dimen/font_title_size"
+                android:id="@+id/textView280"
+                android:text="@string/version_id"
+                android:layout_width="wrap_content"
+                android:layout_height="24.0dip"
+                android:layout_marginTop="24.0dip"
+                android:layout_marginBottom="24.0dip"
+                android:layout_marginStart="8.0dip"
+                android:layout_marginEnd="8.0dip"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView281" />
+
+            <com.vimalinc.hieg.custom.MyTextViewRegular
+                android:id="@+id/textView281"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8.0dip"
+                android:layout_marginTop="8.0dip"
+                android:layout_marginEnd="8.0dip"
+                android:gravity="center"
+                android:text="@string/about_company"
+                android:textColor="@color/md_grey_600"
+                android:textSize="@dimen/font_body_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView279" />
+            <ImageView
+                android:id="@+id/imageView131"
+                android:layout_width="120.0dip"
+                android:layout_height="120.0dip"
+                android:layout_marginTop="24.0dip"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:src="@drawable/splash_vinc" />
+        </android.support.constraint.ConstraintLayout>
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/popularCardView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginStart="8.0dip"
+            android:layout_marginEnd="8.0dip"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout41">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/dim_5"
+                android:paddingLeft="@dimen/dim_12"
+                android:paddingRight="@dimen/dim_3"
+                android:paddingTop="@dimen/dim_12">
+
+                <com.vimalinc.hieg.custom.MyTextViewRegular
+                    android:id="@+id/txtContactInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/dim_5"
+                    android:text="Contact Information"
+                    android:textColor="#000"
+                    android:textSize="@dimen/font_size_18"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dim_9">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:src="@drawable/ic_contact_address"
+                        android:tint="@color/color_tile_8"/>
+
+                    <com.vimalinc.hieg.custom.MyTextViewRegular
+                        android:id="@+id/txtAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dim_10"
+                        android:lineSpacingExtra="2dp"
+                        android:text="@string/contact_us_address"
+                        android:textColor="@color/colorBrownGreyNice"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dim_9">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:src="@drawable/ic_contact_phone"
+                        android:tint="@color/color_tile_8"/>
+
+                    <com.vimalinc.hieg.custom.MyTextViewRegular
+                        android:id="@+id/txtPhone1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dim_10"
+                        android:lineSpacingExtra="2dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:text="(+91) 99717 - 0331 ,"
+                        android:textColor="@color/colorBrownGreyNice"/>
+
+                    <com.vimalinc.hieg.custom.MyTextViewRegular
+                        android:id="@+id/txtPhone2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dim_15"
+                        android:lineSpacingExtra="2dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:text="(+91) 97923 - 13278"
+                        android:textColor="@color/colorBrownGreyNice"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dim_9">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:src="@drawable/ic_contact_email"
+                        android:tint="@color/color_tile_8"/>
+
+                    <com.vimalinc.hieg.custom.MyTextViewRegular
+                        android:id="@+id/txtEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dim_10"
+                        android:lineSpacingExtra="2dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:text="vimalcvs29@gmail.com"
+                        android:textColor="@color/colorBrownGreyNice"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView38"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginBottom="24.0dip"
+            android:layout_marginStart="8.0dip"
+            android:layout_marginEnd="8.0dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/popularCardView">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="@dimen/dim_9">
+                <ImageView
+                    android:id="@+id/imageView137"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="16.0dip"
+                    android:layout_marginBottom="16.0dip"
+                    android:layout_marginStart="16.0dip"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView136"
+                    android:src="@drawable/ic_github"
+                    android:layout_marginLeft="16.0dip" />
+                <com.vimalinc.hieg.custom.MyTextViewRegular
+                    android:textColor="@color/md_blue_800"
+                    android:id="@+id/github"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/github"
+
+                    android:layout_marginStart="8.0dip"
+                    android:layout_marginEnd="8.0dip"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView137"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView137"
+                    app:layout_constraintTop_toTopOf="@+id/imageView137" />
+
+                <ImageView
+                    android:id="@+id/imageView136"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="16.0dip"
+                    android:layout_marginStart="16.0dip"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView135"
+                    android:src="@drawable/ic_instagram"
+                    android:layout_marginLeft="16.0dip" />
+                <com.vimalinc.hieg.custom.MyTextViewRegular
+                    android:textColor="@color/md_blue_800"
+                    android:id="@+id/instagram"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/instagram"
+                    android:layout_marginStart="8.0dip"
+                    android:layout_marginEnd="8.0dip"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView136"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView136"
+                    app:layout_constraintTop_toTopOf="@+id/imageView136" />
+                <ImageView
+                    android:id="@+id/imageView135"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="16.0dip"
+                    android:layout_marginStart="16.0dip"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView134"
+                    android:src="@drawable/ic_twitter"
+                    android:layout_marginLeft="16.0dip" />
+                <com.vimalinc.hieg.custom.MyTextViewRegular
+
+                    android:textColor="@color/md_blue_800"
+                    android:id="@+id/twitterTextView"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/twitter"
+                    android:layout_marginStart="8.0dip"
+                    android:layout_marginEnd="8.0dip"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView135"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView135"
+                    app:layout_constraintTop_toTopOf="@+id/imageView135" />
+                <com.vimalinc.hieg.custom.MyTextViewRegular
+                    android:textColor="#000"
+                    android:textSize="@dimen/font_size_18"
+                    android:id="@+id/popularTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dip"
+                    android:text="@string/social_links"
+                    android:layout_marginStart="8.0dip"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginLeft="8.0dip" />
+                <ImageView
+                    android:id="@+id/imageView134"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="16.0dip"
+                    android:layout_marginStart="16.0dip"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/popularTextView"
+                    android:src="@drawable/ic_facebook"
+                    android:layout_marginLeft="16.0dip" />
+                <com.vimalinc.hieg.custom.MyTextViewRegular
+                    android:textColor="@color/md_blue_800"
+                    android:id="@+id/facebookTextView"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/facebook"
+                    android:layout_marginStart="8.0dip"
+                    android:layout_marginEnd="8.0dip"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView134"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView134"
+                    app:layout_constraintTop_toTopOf="@+id/imageView134" />
+
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v4.widget.NestedScrollView>
