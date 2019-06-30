@@ -6,8 +6,8 @@
 
 **Please click the image below to enlarge.**
 
-<img src="art/appwrap-template-20190607223837.png" height="600" width="300" hspace="40">
-<img src="art/appwrap-template-20190607223637.png" height="600" width="300" hspace="40"><img src="art/appwrap-template-20190607225036.png" height="600" width="300" hspace="40">
+<img src="art/appwrap-template-20190607223837.png" height="600" width="300" hspace="40"><img src="art/appwrap-template-20190607223637.png" height="600" width="300" hspace="40">
+<img src="art/appwrap-template-20190607225036.png" height="600" width="300" hspace="40">
 
 
 
